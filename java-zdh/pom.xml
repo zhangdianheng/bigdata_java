@@ -106,7 +106,7 @@
                     </pluginArtifact>
                     <protoSourceRoot>${project.basedir}/src/main/java/com/zdh/protobuf</protoSourceRoot>
                     <outputDirectory>${project.basedir}/src/main/java</outputDirectory>
-<!--                    <clearOutputDirectory>false</clearOutputDirectory>-->
+                   <clearOutputDirectory>false</clearOutputDirectory>
                 </configuration>
                 <executions>
                     <execution>
