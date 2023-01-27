@@ -1,10 +1,10 @@
 package com.zdh.disruptor.trade.demo2;
 
-import com.zdh.disruptor.trade.demo.Trade;
 import com.lmax.disruptor.BusySpinWaitStrategy;
 import com.lmax.disruptor.EventFactory;
 import com.lmax.disruptor.dsl.Disruptor;
 import com.lmax.disruptor.dsl.ProducerType;
+import com.zdh.disruptor.trade.demo.Trade;
 import org.apache.commons.lang3.concurrent.BasicThreadFactory;
 
 import java.util.concurrent.*;

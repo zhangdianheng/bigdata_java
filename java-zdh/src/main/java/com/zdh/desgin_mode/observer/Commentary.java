@@ -7,6 +7,5 @@ package com.zdh.desgin_mode.observer;
  */
 public interface Commentary {
     void setCommentary(String commentary);
-
     String getCommentary();
 }
